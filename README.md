@@ -1,4 +1,4 @@
-# Koindashian [DASH, Ð]
+# Koindashian [DASH, ¤]
 http://koindashian.com/
 
 ## What is Koindashian?
@@ -39,7 +39,7 @@ Special reward system: Random block rewards
 
 600,000+ — 10,000 Reward (flat)
 
-### make dashcoind
+### make koindashiand
 
     sudo apt-get install build-essential \
                          libssl-dev \
