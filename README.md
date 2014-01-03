@@ -1,8 +1,6 @@
 # Koindashian [DASH, Ð]
 http://koindashian.com/
 
-![Koindashian](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
-
 ## What is Koindashian? - i like to eat food
 Koindashian is like Bitcoin, but based on Litecoin, and much prettier.
 http://koindashian.com/
