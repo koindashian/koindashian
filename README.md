@@ -18,7 +18,7 @@ their feature or bug fix is ready.
 ### How much Koindashian can exist?
 Total of 100,000,000,000 coins
 
-### How get Koindashian?
+### How to get Koindashian?
 Scrypt Proof of Work
 
 1 Minute Block Targets, 4 Hour Diff Readjustments
