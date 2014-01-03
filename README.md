@@ -1,7 +1,7 @@
 # Koindashian [DASH, Ð]
 http://koindashian.com/
 
-## What is Koindashian? - i like to eat food
+## What is Koindashian?
 Koindashian is like Bitcoin, but based on Litecoin, and much prettier.
 http://koindashian.com/
 
