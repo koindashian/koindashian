@@ -16,7 +16,7 @@ their feature or bug fix is ready.
 ## Frequently Asked Questions
 
 ### How much Koindashian can exist?
-Total of 100,000,000,000 much coins
+Total of 100,000,000,000 coins
 
 ### How get Koindashian?
 Scrypt Proof of Work
