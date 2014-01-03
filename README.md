@@ -1,4 +1,4 @@
-# Koindashian [KIM, ¤]
+# Koindashian [KOIN, ¤]
 http://koindashian.com/
 
 ## What is Koindashian?
