@@ -2112,7 +2112,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.hashMerkleRoot = %s\n", block.hashMerkleRoot.ToString().c_str());
         assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5f"));
 
-if (true && block.GetHash() != hashGenesisBlock)
+if (false && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
