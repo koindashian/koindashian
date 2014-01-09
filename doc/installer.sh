@@ -1,5 +1,6 @@
 #!/bin/bash
 
+if [ "$1" == "deps" ]; then
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 brew install boost miniupnpc openssl berkeley-db4 +universal
@@ -18,9 +19,15 @@ make install
 
 cd ..
 
+else
+
 git clone git://github.com/sylvainblot/koindashian.git
 
 cd koindashian
+make clean
+make distclean
 
 /usr/local/Trolltech/Qt-4.8.6/bin/qmake
 make -release
+
+fi
