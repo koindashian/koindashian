@@ -4,6 +4,8 @@ http://koindashian.com/
 ## MacOS installer
 Download doc/installer.sh on your Desktop
 
+If you're not on Maverick, launch Xcode then Menu Xcode > Preferences, go on Downloads and install Command Like Tools.
+
 Launch Terminal
 
 If you're on Maverick
