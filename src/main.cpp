@@ -2062,7 +2062,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x68d64ab3330da9d0677992be476995f835c6578d200bcc4d99818e9bac90e590");
+        hashGenesisBlock = uint256("0x1ec5eefb00fa4a7ec8e760a288ef72ec1b11c1df6be2244f4ebe578642f68245");
     }
 
     //
@@ -2095,9 +2095,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1389273137;
+        block.nTime    = 1389298178;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 1010094;
+        block.nNonce   = 3353799;
 
 
         if (fTestNet)
@@ -2113,7 +2113,7 @@ bool LoadBlockIndex(bool fAllowNew)
         assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5fe08e8fd"));
         //assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5f"));
 
-if (true && block.GetHash() != hashGenesisBlock)
+if (false && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
