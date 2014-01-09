@@ -4,14 +4,15 @@ http://koindashian.com/
 ## MacOS installer
 Download doc/installer.sh on your Desktop
 Launch Terminal
+<code>
 cd Desktop
 chmod +x installer.sh
 ./installer.sh deps
-
+</code>
 Then to build the wallet :
-
+<code>
 ./installer.sh 
-
+</code>
 ## What is Koindashian?
 Koindashian is like Bitcoin, but based on Litecoin, and much prettier.
 http://koindashian.com/
