@@ -26,6 +26,7 @@ git clone git://github.com/sylvainblot/koindashian.git
 cd koindashian
 make clean
 make distclean
+git checkout
 
 /usr/local/Trolltech/Qt-4.8.6/bin/qmake
 make -release
