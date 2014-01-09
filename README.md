@@ -6,7 +6,11 @@ Download doc/installer.sh on your Desktop
 Launch Terminal
 <code>
 cd Desktop
+</code>
+<code>
 chmod +x installer.sh
+</code>
+<code>
 ./installer.sh deps
 </code>
 Then to build the wallet :
