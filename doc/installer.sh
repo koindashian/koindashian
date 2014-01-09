@@ -2,8 +2,8 @@
 
 if [ "$1" == "deps" ]; then
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-brew install boost miniupnpc openssl berkeley-db4 +universal
+brew install git
+brew install boost miniupnpc openssl berkeley-db4
 
 
 git clone git://gitorious.org/qt/qt.git
