@@ -2062,7 +2062,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x1531e592c9000a45e7747d83a164d8ff4ed3d4efb93317549a19bf850781522b");
+        hashGenesisBlock = uint256("0x1ec5eefb00fa4a7ec8e760a288ef72ec1b11c1df6be2244f4ebe578642f68245");
     }
 
     //
@@ -2095,14 +2095,14 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1388861538;
+        block.nTime    = 1389298178;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 1650312;
+        block.nNonce   = 3353799;
 
 
         if (fTestNet)
         {
-            block.nTime    = 1388861538;
+            block.nTime    = 1389273137;
             block.nNonce   = 0;
         }
 
@@ -2110,7 +2110,8 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.GetHash() = %s\n", block.GetHash().ToString().c_str());
         printf("hashGenesisBlock = %s\n", hashGenesisBlock.ToString().c_str());
         printf("block.hashMerkleRoot = %s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5f"));
+        assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5fe08e8fd"));
+        //assert(block.hashMerkleRoot == uint256("0x8f3afb52bb6f7a6e0db1fc42f56147f75c8fcb5e45ce91f363d21fe5f"));
 
 if (false && block.GetHash() != hashGenesisBlock)
         {
